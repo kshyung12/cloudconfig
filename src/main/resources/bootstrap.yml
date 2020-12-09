@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: cloudconfig
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kshyung12/cloudconfig.git
